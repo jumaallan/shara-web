@@ -8,9 +8,11 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "start": "webpack-dev-server --hot"
+    "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1",
     "vue": "^2.5.11"
   },
   "browserslist": [
