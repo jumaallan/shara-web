@@ -1,5 +1,7 @@
 # shara-web
 
+This is not complete yet - learning vue alot
+
 ## Project setup
 ```
 yarn install
